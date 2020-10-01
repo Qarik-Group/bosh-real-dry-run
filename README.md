@@ -10,6 +10,7 @@ Make sure the following cli's are installed on your system:
 - [bosh](https://bosh.io/docs/cli-v2-install/)
 - [jq](https://stedolan.github.io/jq/download/)
 - [spruce](https://github.com/geofffranks/spruce#how-do-i-get-started)
+- [credhub](https://github.com/cloudfoundry-incubator/credhub-cli#installing-the-cli)
 
 ```
 git clone http://github.com/starkandwayne/bosh-real-dry-run
@@ -30,6 +31,10 @@ Sample output:
 +     - os: ubuntu-bionic
 +   jobs: []
 +   name: nothing
+
+  credhub_variables:
++ - "/dns_api_server_tls@df0cd11c-27d8-4b98-8649-4e1beeb9975a"
+- - "/dns_api_server_tls@961c6f34-b370-44ee-ba77-ed70455e4fc7"
 
   instance_groups:
   - name: empty-instance
